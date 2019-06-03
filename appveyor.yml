@@ -1,0 +1,25 @@
+version: 0.0.{build}
+configuration: Release
+image: Visual Studio 2017
+init:
+  - git config --global core.autocrlf true
+  - ps: >-
+      if ($env:APPVEYOR_REPO_TAG -eq "true")
+      {
+        Update-AppveyorBuild -Version "$env:APPVEYOR_REPO_TAG_NAME"
+      }
+before_build:
+- cmd: nuget restore .\ChatbotDialogGenerator\
+build:
+  verbosity: detailed
+test:
+  assemblies:
+    - '**\*.Tests.dll'
+dotnet_csproj:
+  patch: true
+  file: '**\*.csproj'
+  version: '{version}'
+  package_version: '{version}'
+  assembly_version: '{version}'
+  file_version: '{version}'
+  informational_version: '{version}'
