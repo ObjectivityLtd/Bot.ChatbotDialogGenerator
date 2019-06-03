@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatbotDialogGenerator", "ChatbotDialogGenerator\ChatbotDialogGenerator.csproj", "{79A1BB09-3A35-4684-89EE-ED4E3859E03B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynWrapper", "RoslynWrapper\RoslynWrapper.csproj", "{D3FCE3C3-7C49-450C-9724-D92DB6EE996B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynWrapper.Tests", "RoslynWrapper.Tests\RoslynWrapper.Tests.csproj", "{88122D17-D4A6-45E0-845F-6A1D5AA99F56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseExcel", "ParseExcel\ParseExcel.csproj", "{BD8C163D-D22F-49C9-9682-BE8B1DDD0C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseExcel.Tests", "ParseExcel.Tests\ParseExcel.Tests.csproj", "{8C9F8750-ED42-4072-A641-A4377A06300A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatbotDialogGenerator.Tests", "ChatbotDialogGenerator.Tests\ChatbotDialogGenerator.Tests.csproj", "{821AFC18-5654-43E4-ABF1-49C838E456C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79A1BB09-3A35-4684-89EE-ED4E3859E03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A1BB09-3A35-4684-89EE-ED4E3859E03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A1BB09-3A35-4684-89EE-ED4E3859E03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A1BB09-3A35-4684-89EE-ED4E3859E03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3FCE3C3-7C49-450C-9724-D92DB6EE996B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FCE3C3-7C49-450C-9724-D92DB6EE996B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FCE3C3-7C49-450C-9724-D92DB6EE996B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FCE3C3-7C49-450C-9724-D92DB6EE996B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88122D17-D4A6-45E0-845F-6A1D5AA99F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88122D17-D4A6-45E0-845F-6A1D5AA99F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88122D17-D4A6-45E0-845F-6A1D5AA99F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88122D17-D4A6-45E0-845F-6A1D5AA99F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8C163D-D22F-49C9-9682-BE8B1DDD0C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8C163D-D22F-49C9-9682-BE8B1DDD0C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8C163D-D22F-49C9-9682-BE8B1DDD0C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8C163D-D22F-49C9-9682-BE8B1DDD0C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9F8750-ED42-4072-A641-A4377A06300A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9F8750-ED42-4072-A641-A4377A06300A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9F8750-ED42-4072-A641-A4377A06300A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9F8750-ED42-4072-A641-A4377A06300A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821AFC18-5654-43E4-ABF1-49C838E456C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821AFC18-5654-43E4-ABF1-49C838E456C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821AFC18-5654-43E4-ABF1-49C838E456C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821AFC18-5654-43E4-ABF1-49C838E456C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {566A36AF-B545-4069-A9C6-2E094A23887B}
+	EndGlobalSection
+EndGlobal

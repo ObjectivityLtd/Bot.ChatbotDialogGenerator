@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ParseExcel.Configuration" GeneratedClassName="ExcelSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RedirectCellPattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\[\D(\D|\d)*\]</Value>
+    </Setting>
+    <Setting Name="ColumnWithDialogs" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="FlowStartColumn" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="ChoiceDelimiter" Type="System.Char" Scope="Application">
+      <Value Profile="(Default)">&amp;</Value>
+    </Setting>
+    <Setting Name="DefaultEndAction" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DialogResultObject.AskForAnotherQuestion</Value>
+    </Setting>
+    <Setting Name="TicketCreationText" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[ticket creation]</Value>
+    </Setting>
+    <Setting Name="DefaultEndText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Can I help you with anything else?</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

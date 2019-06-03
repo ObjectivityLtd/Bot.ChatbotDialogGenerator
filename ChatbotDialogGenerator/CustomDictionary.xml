@@ -1,0 +1,16 @@
+<!-- https://msdn.microsoft.com/en-us/library/bb514188.aspx -->
+<Dictionary>
+  <Words>
+    <Recognized>
+      <Word>Chatbot</Word>
+	  <Word>Utils</Word>
+	  <Word>Usings</Word>
+    </Recognized>
+  </Words>
+  <Acronyms>
+    <CasingExceptions>
+      <Acronym>IoC</Acronym>
+      <Acronym>Io</Acronym>
+    </CasingExceptions>
+  </Acronyms>
+</Dictionary>

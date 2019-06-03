@@ -1,0 +1,72 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ChatbotDialogGenerator.Configuration" GeneratedClassName="CommonSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DialogFolderPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Dialogs\GeneratorTest</Value>
+    </Setting>
+    <Setting Name="DialogUsings" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;System.ComponentModel.Composition&lt;/string&gt;
+  &lt;string&gt;System.Threading.Tasks&lt;/string&gt;
+  &lt;string&gt;Core.Dialogs&lt;/string&gt;
+  &lt;string&gt;Core.Extensions&lt;/string&gt;
+  &lt;string&gt;Core.Invokers&lt;/string&gt;
+  &lt;string&gt;Microsoft.Bot.Builder.Dialogs&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="PostAsSeparateBubble" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="InterfaceUsings" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Core.Dialogs&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="ResourcesFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Resources.resx</Value>
+    </Setting>
+    <Setting Name="ResourceAccessorUsings" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;System.Globalization&lt;/string&gt;
+  &lt;string&gt;System.Resources&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="TicketDialog" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ITicketCreationDialog</Value>
+    </Setting>
+    <Setting Name="SolutionPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\Target\Solution\Directory</Value>
+    </Setting>
+    <Setting Name="DialogProjectName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Target.Project.Name</Value>
+    </Setting>
+    <Setting Name="DialogNamespaceName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Target.Project</Value>
+    </Setting>
+    <Setting Name="BaseDialogInterface" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ITargetProjectDialog</Value>
+    </Setting>
+    <Setting Name="ExcelFilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\Path\To\sample.xlsx</Value>
+    </Setting>
+    <Setting Name="InterfaceNamespaceName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Target.Project</Value>
+    </Setting>
+    <Setting Name="InterfaceProjectName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Target.Project</Value>
+    </Setting>
+    <Setting Name="InterfaceFolderPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Dialogs\Generator</Value>
+    </Setting>
+    <Setting Name="ResultObject" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DialogResultObject</Value>
+    </Setting>
+    <Setting Name="SolutionName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Target.Project.Bot.sln</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

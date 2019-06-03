@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ChatbotDialogGenerator.Configuration" GeneratedClassName="UnitTests">
+  <Profiles />
+  <Settings>
+    <Setting Name="UnitTestsFolderPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Tests\</Value>
+    </Setting>
+    <Setting Name="UnitTestsUsings" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;System.Threading.Tasks&lt;/string&gt;
+  &lt;string&gt;Autofac&lt;/string&gt;
+  &lt;string&gt;Core.Dialogs&lt;/string&gt;
+  &lt;string&gt;Core.Extensions&lt;/string&gt;
+  &lt;string&gt;Core.Invokers&lt;/string&gt;
+  &lt;string&gt;Objectivity.Bot.Tests.Stories.Recorder&lt;/string&gt;
+  &lt;string&gt;Objectivity.Bot.Tests.Stories.Xunit&lt;/string&gt;
+  &lt;string&gt;Tests.Common.DI&lt;/string&gt;
+  &lt;string&gt;Xunit&lt;/string&gt;
+  &lt;string&gt;Objectivity.Bot.Tests.Stories.Xunit.Extensions&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="UnitTestBaseClass" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DialogUnitTestBase</Value>
+    </Setting>
+    <Setting Name="UnitTestDonePredicate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">result =&gt; result.DialogResultType == DialogResultType.AskForAnotherQuestion</Value>
+    </Setting>
+    <Setting Name="UnitTestsProjectName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Target.Project.UnitTests</Value>
+    </Setting>
+    <Setting Name="UnitTestNamespace" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Target.Project.UnitTests</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
